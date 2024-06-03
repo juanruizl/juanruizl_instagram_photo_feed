@@ -1,0 +1,60 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background: #bdbdbd;
+    margin: 0;
+}
+
+/* Estilo para todos los divs */
+div {
+    box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: white;
+    padding: 10px;
+}
+
+/* Estilo para el título en el encabezado */
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para los posts */
+.post {
+    background: white;
+    margin-top: 10px;
+}
+
+/* Estilo para las imágenes dentro de los posts */
+.post img {
+    width: 100%;
+}
+
+/* Estilo para el encabezado de los posts */
+.post .post_header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Estilo para la fecha en el encabezado de los posts */
+.post .post_header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+
+/* Estilo para los títulos y párrafos dentro de los posts */
+.post h2, .post p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 50%;
+    margin: auto;
+}
+
